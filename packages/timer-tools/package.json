@@ -1,0 +1,24 @@
+{
+  "name": "timer-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timer"
+  ],
+  "types": "./dist/timer-tools.d.ts",
+  "author": "sunRainW",
+  "license": "ISC",
+  "buildOptions": {
+    "name": "timerTools",
+    "formats": [
+      "esm-bundler",
+      "esm-browser",
+      "cjs",
+      "global"
+    ]
+  }
+}
